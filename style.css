@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('gym.jpg');
+    background-size: cover;
+}
+
+div.box {
+    width: 400px;
+    margin: 50px auto 150px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+
+}
+
+.tittle {
+    font-size: 15px;
+}
+
+div.Register {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px;
+    color: #fff;
+}
+
+form#register {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+input#name {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.reset {
+    background-color: rgb(15, 2, 2);
+    color: aliceblue;
+    font-size: 15px;
+    width: 100px;
+    height: 22px;
+    border: 1px solid rgb(243, 231, 231);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.Apply {
+    background-color: rgb(223, 8, 8);
+    color: rgb(13, 17, 20);
+    font-size: 15px;
+    width: 100px;
+    height: 22px;
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+a:hover {
+    color: rgb(230, 14, 14);
+    background-color: black;
+}
+
+a:visited {
+    color: goldenrod;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+.btn {
+    background-color: #DBE8D8;
+    color: black;
+    padding: 1px;
+    border: none;
+    margin-left: 270px;
+    border-radius: 3px;
+
+
+}
